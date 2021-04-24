@@ -1,0 +1,50 @@
+html, body {
+  margin: 20;
+  padding: 10;
+  background-repeat: no-repeat;
+  background-color: rgb(1, 29, 36);
+
+}
+
+canvas {
+  display: block;
+  border: 5px solid rgb(91, 230, 255);
+  border-style: solid;
+  border-radius: 25px;
+  position: relative;
+  margin: auto;
+  padding: auto;
+  margin-bottom: 1cm;
+}
+
+@font-face {
+  font-family: Ultimate_FONT;
+  src: url('fonts/DleDigitalRegular-62Vo.ttf');
+}
+
+.unselectable {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+h1 {
+  text-shadow: 6px 6px 7px rgb(131, 232, 255);
+  font-size: 70px;
+  font-family: Ultimate_FONT;
+  text-align: center;
+  color: rgb(18, 121, 145);
+  transition: 500ms;
+}
+
+h1:hover {
+  transform: scale(1.2, 1.2);
+  color: aliceblue;
+}
+
+hr {
+  border: 2px solid white;
+  background-color: white;
+}
